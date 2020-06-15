@@ -1,0 +1,30 @@
+{
+    "intent": "order",
+    "codeCodeableConcept": {
+        "coding": [
+            {
+                "code": "27991004",
+                "System": "http://snomed.info/sct"
+            }
+        ]
+    },
+    "parameter": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "code": "9008",
+                        "system": "https://terms.rxbox.app/device-request-params"
+                    }
+                ]
+            },
+            "valueRange": {
+                "high": 42,
+                "low": 35.8
+            }
+        }
+    ],
+    "subject": {
+        "reference": "Patient/69"
+    }
+}

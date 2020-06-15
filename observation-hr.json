@@ -1,0 +1,23 @@
+{
+    "resourceType": "Observation",
+    "id": "1123123",
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "code": "76282-3",
+                "system": "http://loinc.org"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/1"
+    },
+    "effectiveDateTime": "2014-12-05T09:30:10+08:00",
+    "valueQuantity": {
+        "value": 77,
+        "system": "http://unitsofmeasure.org",
+        "code": "{Beats}/min",
+        "unit": "Beats / minute"
+    }
+}

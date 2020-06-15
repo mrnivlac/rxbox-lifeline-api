@@ -1,0 +1,67 @@
+{
+    "resourceType": "Observation",
+    "id": "1123123",
+    "status": "final",
+    "code": {
+        "coding": [
+            {
+                "code": "85354-9",
+                "system": "loinc.org"
+            }
+        ]
+    },
+    "subject": {
+        "reference": "Patient/1"
+    },
+    "effectiveDateTime": "2014-12-05T09:30:10+01:00",
+    "component": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "code": "8480-6",
+                        "system": "http://loinc.org"
+                    }
+                ]
+            },
+            "valueQuantity": {
+                "value": 120,
+                "unit": "mmHg",
+                "code": "mm[Hg]",
+                "system": "http://unitsofmeasure.org"
+            }
+        },
+        {
+            "code": {
+                "coding": [
+                    {
+                        "code": "8462-4",
+                        "system": "http://loinc.org"
+                    }
+                ]
+            },
+            "valueQuantity": {
+                "value": 80,
+                "unit": "mmHg",
+                "code": "mm[Hg]",
+                "system": "http://unitsofmeasure.org"
+            }
+        },
+        {
+            "code": {
+                "coding": [
+                    {
+                        "code": "8478-0",
+                        "system": "http://loinc.org"
+                    }
+                ]
+            },
+            "valueQuantity": {
+                "value": 101,
+                "unit": "mmHg",
+                "code": "mm[Hg]",
+                "system": "http://unitsofmeasure.org"
+            }
+        }
+    ]
+}

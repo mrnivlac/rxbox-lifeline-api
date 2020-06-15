@@ -1,0 +1,14 @@
+{
+    "code": {
+        "coding": [
+            {
+                "code": "9001",
+                "system": "https://terms.rxbox.app/device-request-params"
+            }
+        ]
+    },
+    "valueRange": {
+        "high": 120,
+        "low": 90
+    }
+}

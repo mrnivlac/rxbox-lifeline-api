@@ -1,0 +1,44 @@
+{
+    "intent": "order",
+    "codeCodeableConcept": {
+        "coding": [
+            {
+                "code": "448703006",
+                "System": "http://snomed.info/sct"
+            }
+        ]
+    },
+    "parameter": [
+        {
+            "code": {
+                "coding": [
+                    {
+                        "code": "9003",
+                        "system": "https://terms.rxbox.app/device-request-params"
+                    }
+                ]
+            },
+            "valueRange": {
+                "high": 100,
+                "low": 50
+            }
+        },
+        {
+            "code": {
+                "coding": [
+                    {
+                        "code": "9004",
+                        "system": "https://terms.rxbox.app/device-request-params"
+                    }
+                ]
+            },
+            "valueRange": {
+                "high": 100,
+                "low": 94
+            }
+        }
+    ],
+    "subject": {
+        "reference": "Patient/69"
+    }
+}

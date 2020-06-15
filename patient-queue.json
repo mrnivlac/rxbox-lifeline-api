@@ -1,0 +1,22 @@
+{
+    "resourceType": "Group",
+    "id": "patient-queue",
+    "type": "person",
+    "member": [
+        {
+            "entity": {
+                "reference": "Patient/1"
+            }
+        },
+        {
+            "entity": {
+                "reference": "Patient/2"
+            }
+        },
+        {
+            "entity": {
+                "reference": "Patient/3"
+            }
+        }
+    ]
+}

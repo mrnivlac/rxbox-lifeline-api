@@ -1,0 +1,23 @@
+[
+    {
+        "rpc_configid": 4,
+        "rpc_patientid": 4,
+        "rpc_ecg_st_msec": 10,
+        "rpc_heartrate_upper_bpm": 70,
+        "rpc_heartrate_lower_bpm": 30,
+        "rpc_pulserate_upper_bpm": 50,
+        "rpc_pulserate_lower_bpm": 35,
+        "rpc_oxygen_upper_saturation": 2,
+        "rpc_oxygen_lower_saturation": 3,
+        "rpc_respiratory_upper_rpm": 4,
+        "rpc_respiratory_lower_rpm": 5,
+        "rpc_bp_systolic_upper": 6,
+        "rpc_bp_systolic_lower": 7,
+        "rpc_bp_diastolic_upper": 8,
+        "rpc_bp_diastolic_lower": 9,
+        "rpc_bp_time_frame": 123,
+        "rpc_temperature_upper": 30,
+        "rpc_temperature_lower": 31,
+        "rpc_dateadded": "2020-06-02 09:42:09"
+    }
+]
